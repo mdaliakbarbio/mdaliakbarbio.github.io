@@ -366,8 +366,8 @@ h5 {
   display: block;
   height: 5rem;
   margin: 0 auto 2rem;
-  filter: invert(33%) sepia(7%) saturate(243%) hue-rotate(145deg)
-    brightness(94%) contrast(81%);
+  /* filter: invert(33%) sepia(7%) saturate(243%) hue-rotate(145deg) */
+    /* brightness(94%) contrast(81%); */
 }
 
 .service-card-title {
