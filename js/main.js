@@ -40,36 +40,7 @@ window.addEventListener("scroll", function () {
 AOS.init({
   once: true,
 });
-// document.getElementById('myContact').addEventListener('submit', async function(e) {
-//     e.preventDefault();
-    
-//     const form = e.target;
-//     const formData = new FormData(form);
-//     const responseDiv = document.getElementById('responseMessage');
-    
-//     // Show loading state
-//     responseDiv.innerHTML = 'Sending...';
-//     responseDiv.className = 'loading';
-    
-//     try {
-//         const response = await fetch('https://retailease.parliamentpratidin.com/portfolio-contact.php', {
-//             method: 'POST',
-//             body: formData
-//         });
-        
-//         if (response.ok) {
-//             const result = await response.json();
-//             responseDiv.innerHTML = result.message || 'Success!';
-//             responseDiv.className = 'success';
-//             form.reset();
-//         } else {
-//             throw new Error('Server error');
-//         }
-//     } catch (error) {
-//         responseDiv.innerHTML = 'Error: ' + error.message;
-//         responseDiv.className = 'error';
-//     }
-// });
+
 document.getElementById('myContact').addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent default form submission
     
